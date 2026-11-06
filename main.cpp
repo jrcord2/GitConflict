@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int add(int a, int b);
+string say(string s);
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 
-int add(int a, int b)
+void say(string s)
 {
-    return a + b;
+    cout << s << endl;
 }
