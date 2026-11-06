@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string say(string s);
+void say(string s);
 
 int main()
 {
